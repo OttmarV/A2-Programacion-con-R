@@ -9,9 +9,24 @@
 
 #### DESARROLLO
 
-Para seguir practicando con ejercicios condiciones y bucles, podemos usar el siguiente link. Aqui tenemos ejercicios online, asi como la definicion de la sintaxis para hacer cualquier tipo de operacion. Rpubs nos servira para reafirmar los conocimientos aprendidos durante el curso, asi que lo guardaremos para futuras dudas:
-<https://rpubs.com/Maya/condicionalesbucles> 
+A continuación realiza algunos ejercicios para reforzar los conocimientos adquiridos sobre condiciones y loops.
 
+Ejercicio 1
 
-De digual manera, el siguiente video apoya la informacion de la pagina y nos muestra ejemplos de aplicacion. Te tomara solo 15 minutos esta explicacion y te dejara mucho mas claro todo lo aprendido. 
-<https://www.youtube.com/watch?reload=9&v=MaCSfCnTIqs> 
+Escriba un bucle for que itere sobre los números del 1 al 7 e imprima el cubo de cada número usando print ().
+
+Ejercicio 2
+
+Escriba un bucle for que itere sobre los nombres de columna del conjunto de datos de iris incorporado e imprima cada uno junto con el número de caracteres en el nombre de la columna entre paréntesis. Ejemplo de salida: Sepal.Length (12). Utilice las siguientes funciones print (), paste0 () y nchar ().
+
+Ejercicio 3
+
+Escriba un ciclo while que imprima números normales aleatorios estándar (use rnorm ()) pero se detiene (breaks) si obtiene un número mayor que 1.
+
+Ejercicio 4
+
+El siguiente uso adapta el bucle del último ejercicio para que no imprima números negativos.
+
+Ejercicio 5
+
+Usando un bucle for simula el lanzamiento de una moneda veinte veces, haciendo un seguimiento de los resultados individuales (1 = caras, 0 = colas) en un vector que preasigne.
