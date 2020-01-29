@@ -9,10 +9,23 @@
 1. Usar la carpeta de trabajo `Sesion-06/Postwork`
 
 #### DESARROLLO
+Objetivo: 
+Profundizar en el concepto de series de tiempo. 
 
-Las series de tiempo son complejas, tanto a nivel conceptual como a nivel de modelaje. Esta bibliografia les permitira profundizar en el tema y convertirse en expertos del tiempo. 
-Este es un libro disponible online (en ingles) sobre el modelaje de historicos y prediccion. 
-<https://arxiv.org/pdf/1302.6613.pdf> 
+Instrucciones:
 
-Este video (en espanol) les ayudara a consolidar como entender un problema de series de tiempo. 
-<https://www.youtube.com/watch?v=BOCm-HgK7WQ> 
+Responde las siguientes preguntas:
+
+¿Qué es una serie de tiempo?
+
+¿Cómo puedo crear una serie de tiempo en R?
+
+¿Qué es una serie de tiempo estacionaria?
+
+¿Cómo puedo conocer la tendencia, estacionalidad y error de una serie de tiempo?
+
+¿Qué son los lags?
+
+¿Cómo puedo crear lags de una serie de tiempo?
+
+¿Qué es la autocorrelación y la autocorrelación parcial?
