@@ -9,10 +9,16 @@
 1. Usar la carpeta de trabajo `Sesion-05/Postwork`
 
 #### DESARROLLO
+Ejercicio 1.
+Mejora la gráfica del dataset de iris.
 
-Para seguir aprendiendo funcionalidades de ggplot2 y posibilidades de visualizacion, este tutorial sera de gran ayuda (esta en ingles): 
-<https://www.youtube.com/watch?v=1GmQ5BdAhG4> 
 
-Otro tutorial interesante y en espanol es el siguiente: 
-<https://www.youtube.com/watch?v=nuNeXPxDt-c>
+
+Ejercicio 2.
+
+Agrega facetas (facet_grid()) y geom_smooth para conseguir una gráfica así: 
+
+
+
+
 
