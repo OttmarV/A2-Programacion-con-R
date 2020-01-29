@@ -19,6 +19,6 @@ Ejercicio 2.
 Agrega facetas (facet_grid()) y geom_smooth para conseguir una gráfica así: 
 
 
-
+Revise Postwork en Google Drive para poder visualizar las imagenes.
 
 
