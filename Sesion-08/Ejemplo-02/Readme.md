@@ -58,14 +58,14 @@ Corremos la funcion knn de predicion:
 predic <- knn(iris_training,iris_test,cl=iris_categoria_target,k=13)
 ```
 
-Creamos una confusion matrix (matriz de confusion) para ver la distribucion de la prediccion: 
+Creamos una confusión matrix (matriz de confusión) para ver la distribución de la predicción: 
 ```{r}
 con_mat <- table(predic,iris_categoria_test)
 ```
  
-Esta funcion divide las predicciones correctas entre el total de predicciones y nos indica que tan bueno es nuestro modelo de clasificacion.  
+Esta funcion divide las predicciones correctas entre el total de predicciones y nos indica qué tan bueno es nuestro modelo de clasificación.  
 ```{r}
 precision <- function(x){sum(diag(x)/(sum(rowSums(x)))) * 100}
 precision(con_mat)
 ```
-Salio muy bien nuestra prediccion! 
+¡Salió muy bien nuestra predicción! 
