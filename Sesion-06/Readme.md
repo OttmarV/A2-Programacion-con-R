@@ -23,8 +23,6 @@
 	- [Postwork](Postwork)
 
 
-`Data Analysis` > `A2-Programación-con-R`
-
 ## Parte 2: Series de tiempo 
 
 ### OBJETIVO  
