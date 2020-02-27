@@ -1,36 +1,43 @@
 `Data Science` > [`Programacion con R`]
-## Series de tiempo
+## Visualizacion, graficos y tablas
 
 ### OBJETIVO
-- Aprender a leer data de una pagina web
-- Transformar un vector numerico en serie de tiempo
-- Graficar una serie de tiempo 
+- Aprender a crear un histograma de categorias 
 
 #### REQUISITOS
 1. Contar con R studio.
-1. Usar la carpeta de trabajo `Sesion06/Ejemplo-01`
+1. Usar la carpeta de trabajo `Sesion05/Ejemplo-01`
 
 #### DESARROLLO
 
+-Cargamos el DS de NBA en un objeto llamado nba.
+-Filtramos el DS por nacionalidad y obtenemos los jugadores mexicanos.
+-Filtramos el DS resultante para obtener datos de Gustavo Ayon.
+-Seleccionamos  del DS resultante las columnas: Player, Season.short y Games.
+Utilizando librería ggplot2.
+-Realizamos una gráfica que nos muestre cada año los juegos ganados y perdidos en la misma columna.
 
-Importamos los datos de la edad en la que murieron los reyes de Inglaterra de la siguiente pagina web
+
 ```{r}
-reyes <- scan("https://robjhyndman.com/tsdldata/misc/kings.dat")
+  #Cargamos el DS de NBA en un objeto llamado nba.
+nba <- NBA_players_by_season
+head(nba)
+#Filtramos el DS por nacionalidad y obtenemos los jugadores mexicanos.
+mxplayer <- nba %>% 
+  filter(Nationality == 'Mexico')
+print(mxplayer)
+#Filtramos el DS resultante para obtener datos de Gustavo Ayon.
+ayon<- mxplayer %>% 
+  filter(Player == 'Gustavo Ayon')
+print(ayon)
+#Seleccionamos  del DS resultante las columnas: Player, Season.short, Games y Games.missed
+games <- ayon %>% 
+  select(Player, Season.short, Games, Games.missed)
+print(games)
+#Utilizando librería ggplot2.
+#Realizamos una gráfica que nos muestre cada año los juegos ganados y perdidos en la misma columna.
 
-```
-
-Si observamos la informacion vemos que nos interesa filtrar los tres primeros registros que no contienen data, por lo que sustituiremos la variable con esta orden 
-```{r}
-reyes <- scan("https://robjhyndman.com/tsdldata/misc/kings.dat",skip=3)
-```
-
-Comprobamos la estructura y vemos que es numerica, por lo que la transformaremos a serie de tiempo
-```{r}
-str(reyes)
-reyes <- ts(reyes)
-```
-
-Creamos un plot de la serie de tiempo
-```{r}
-plot(reyes)
-```
+ggplot(games, aes(fill=Games, y=Games, x=Season.short))+
+  geom_bar(position = "stack", stat = "identity")
+  ```{r}
+ 

@@ -1,45 +1,50 @@
 `Data Science` > [`Programacion con R`]
-## Series de tiempo
+## Visualizacion, graficos y tablas
 
 ### OBJETIVO
-- Aprender a leer data de una pagina web
-- Transformar un vector numerico en serie de tiempo
-- Estandarizar las fluctuaciones en series de tiempo sacando su logaritmo 
-- Descomponer la estacionalidad de una serie de tiempo 
+- Aprender a crear un grafico de composición. 
 
 #### REQUISITOS
 1. Contar con R studio.
-1. Usar la carpeta de trabajo `Sesion06/Ejemplo-02`
+1. Usar la carpeta de trabajo `Sesion05/Ejemplo-02`
 
 #### DESARROLLO
 
+Importamos la base de datos de NBA
+Importaremos la libreria ggplot2
+Crearemos un grafico de composición para mostrar las nacionalidades que tengan más de 50 jugadores en la NBA.
 
-Importamos los datos de ventas de una tienda de la siguiente pagina web
 ```{r}
-ventas <- scan("http://robjhyndman.com/tsdldata/data/fancy.dat")
-```
+#Cargamos el DS de NBA en un objeto llamado nba.
+nba <- NBA_players_by_season
+head(nba)
+#Obtener la cantidad de jugadores por nacionalidad.
+naciones <- nba %>%
+  group_by(Nationality) %>%
+  summarize(count=n())
+print(naciones)
 
-Comprobamos la estructura y vemos que es numerica, por lo que la transformaremos a serie de tiempo e indicaremos que tenga una frecuencia mensual iniciando en enero de 1987 
-```{r}
-str(ventas)
-ventas <- ts(ventas, frequency=12, start=c(1987,1)) 
-ventas
-```
+#Eliminar estados unidos y nulos
+naciones <- naciones[-c(1),]
+naciones <- naciones[-c(68),]
+#Filtrar nacionalidades con menos de 10 jugadores.
+naciones <- naciones %>% 
+  filter(count > 50)
+#Obtener la suma total de los jugadores.
+totalPlayers <- sum(naciones$count)
+print(totalPlayers)
 
-Creamos el grafico de esta serie de tiempo
-```{r}
-plot(ventas)
-```
+#Crear una nueva columna con los porcentajes del total de jugadores
+naciones$percentage <- (naciones$count * 100)/totalPlayers
 
-Podemos observar que este modelo aditivo no describe bien la serie de tiempo, pues la fluctuacion incrementa con el nivel de la serie de tiempo. Por ello, la transformaremos sacando su logaritmo
-```{r}
-logventas <- log(ventas)
-plot(logventas)
-```
-Ahora las fluctuaciones son mas constantes a lo largo del tiempo y no dependen del nivel de la serie 
+#piechart
+ggplot(naciones, aes(x="", y=percentage, fill=Nationality)) +
+  geom_bar(stat="identity",color="white") +
+  coord_polar("y", start=0) +
+   theme(legend.position="none") +
+     geom_text(aes(label = paste(Nationality, '', round(percentage, digits = 2), '%')), position = position_stack(vjust = 0.2)) +
+       scale_fill_brewer(type = "seq")
 
-Vamos a descomponer la serie de tiempo en sus cuatro elementos 
-```{r}
-decventas <- decompose(logventas)
-plot(decventas)
+
+
 ```
