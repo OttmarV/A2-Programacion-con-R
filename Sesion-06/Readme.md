@@ -33,16 +33,16 @@
 #### ORGANIZACION DE LA CLASE 
 
 - Data de una pagina web
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
+	- [Ejemplo 04](Ejemplo-04)
+	- [Reto 04](Reto-04)
 
 - Visualizar una serie de tiempo 
-	- [Ejemplo 02](Ejemplo-02)
-	- [Reto 02](Reto-02)
+	- [Ejemplo 05](Ejemplo-05)
+	- [Reto 05](Reto-05)
 
 - Predicción en el tiempo
-	- [Ejemplo 03](Ejemplo-03)
-	- [Reto 03](Reto-03)
+	- [Ejemplo 06](Ejemplo-06)
+	- [Reto 06](Reto-06)
 
 - Series de tiempo nivel avanzado
 	- [Postwork](Postwork)
