@@ -14,11 +14,11 @@ Para instalar R Studio vamos a acceder a este link y eligiremos la opción gratu
 
 ### ORGANIZACIÓN DE MÓDULO
 
- - [Sesión 1](Sesion-01): Fundamentos de R studio y sus paquetes	
- - [Sesión 2](Sesion-02): Programación orientada a objetos	
- - [Sesión 3](Sesion-03): Funciones, condiciones y loops	
- - [Sesión 4](Sesion-04): Exploración de datos	
- - [Sesión 5](Sesion-05): Visualización, gráficos y tablas	
- - [Sesión 6](Sesion-06): Series de tiempo	
- - [Sesión 7](Sesion-07): Ejercicios prácticos (storytelling); Kaggle	
+ - [Sesión 1](Sesion-01): Fundamentos de R I	
+ - [Sesión 2](Sesion-02): Fundamentos de R II	
+ - [Sesión 3](Sesion-03): Programación Orientada a Objetos(POO), Funciones, Condiciones y Loops	
+ - [Sesión 4](Sesion-04): Exploración de Datos
+ - [Sesión 5](Sesion-05): Manipulación de Datos
+ - [Sesión 6](Sesion-06): Visualización, gráficos, talbas y series de tiempo	
+ - [Sesión 7](Sesion-07): Ejercicios prácticos (storytelling) - Kaggle	
  - [Sesión 8](Sesion-08): Shiny	
