@@ -1,13 +1,14 @@
-`Data Analysis` > `A2-Programación-con-R`
+`Data Analysis` > `A2-Programación-con-R` 
 
 ## Parte 1: Visualización, gráficos y tablas 
 
-### OBJETIVOS 
+### OBJETIVOS :
+
  - Crear gráficos con paquetes de R seleccionando aquellos que aportan más información de forma que entregue analisis con visualización y transmita los resultados rápida y ordenadamente.
 
 #### ORGANIZACION DE LA CLASE
 
-- Creando un histograma
+- Creando un histograma 
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
 
