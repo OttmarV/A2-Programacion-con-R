@@ -19,8 +19,6 @@
 	- [Reto 03](Reto-03)
 
 
-`Data Analysis` > `A2-Programación-con-R`
-
 ## Parte 2: Funciones, condiciones y loops  
 
 ### OBJETIVOS 
