@@ -13,13 +13,8 @@
 #### DESARROLLO
 
 
-1. Cargamos el csv de **mtcars** 
+1. Cargamos el csv de **mtcars**  
 
-	![](img/1.png)
-
-	![](img/2.png)
-	
-	
 
 2. Usaremos el comando **str** para desplegar la estructura del dataset e identificar los valores **int** que podrían ser variables de tipo lógico, desplegaremos el valor de los objetos con **class**
 	
