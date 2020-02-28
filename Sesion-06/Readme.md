@@ -8,7 +8,7 @@
 
 #### ORGANIZACION DE LA CLASE
 
-- Creando un histograma
+- Creando un histograma 
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
 
@@ -21,7 +21,7 @@
 	- [Reto 03](Reto-03)
 
 - Visualizacion avanzada
-	- [Postwork](Postwork)
+	- [Postwork](Postwork) 
 
 
 ## Parte 2: Series de tiempo 
