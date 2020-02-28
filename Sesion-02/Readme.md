@@ -1,6 +1,6 @@
 [`Estadística con R`](../Readme.md) > `Sesión 01: Fundamentos de R`
 
-## Work: Fundamentos de R
+## Fundamentos de R
 
 ### OBJETIVOS 
 - Aprender a declarar y acceder a vectores
@@ -25,3 +25,4 @@
 - Lectura de Datos
 	- [Ejemplo 04](Ejemplo-04)
 	- [Reto 04](Reto-04)
+
