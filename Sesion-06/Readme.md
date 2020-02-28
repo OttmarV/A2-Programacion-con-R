@@ -1,4 +1,4 @@
-`Data Analysis` > `A2-Programación-con-R` 
+`Data Analysis` > `A2-Programación-con-R`
 
 ## Parte 1: Visualización, gráficos y tablas 
 
@@ -8,7 +8,7 @@
 
 #### ORGANIZACION DE LA CLASE
 
-- Creando un histograma 
+- Creando un histograma
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
 
