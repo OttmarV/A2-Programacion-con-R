@@ -5,10 +5,10 @@
 
 ### OBJETIVOS
 
-- El objetivo del proyecto es crear un modelo, ya sea descriptivo o predictivo, que demuestre que estamos aprendiendo los dos pilares fundamentales del módulo: R y estadística.  
+- El objetivo del proyecto es crear un modelo, ya sea descriptivo o predictivo, que demuestre que estamos aprendiendo los dos pilares fundamentales del módulo.  
 
-En particular, el objetivo de este prework es poder identificar las opciones de datasets que tenemos, para poder tener más claridad al momento de elegir el que será la base del proyecto a desarrollar en este módulo.  
-
+- En particular, el objetivo de este postwork es poder identificar las opciones de datasets que tenemos, para poder tener más claridad al momento de elegir el que será la base del proyecto a desarrollar en este módulo.  
+  
 
 #### REQUISITOS
 
@@ -49,6 +49,6 @@ Para tu dataset, responde las siguientes preguntas:
 * ¿Qué tipo de datos contienen?  
 * ¿Para qué existe este dataframe?  
 
-Después, plantea el problema que te gustaría responder  y se vería la solución ideal a tu problemática.   
+Después,**plantea** el problema que te gustaría responder  y se vería la solución ideal a tu problemática.   
 
 Por ejemplo, si tuviera una serie de personas y su salario percibido bruto, y mi problema a solucionar es calcular el salario neto por persona, imagino mi solución como una calculadora interactiva, en donde reciba información de salario bruto y sea capaz de regresar el salario neto.  
