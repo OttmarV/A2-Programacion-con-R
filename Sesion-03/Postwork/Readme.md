@@ -1,47 +1,44 @@
 `Data Science` > [`Programacion con R`]
 
-### OBJETIVO
-- Funcionalidades del package y cuando usarlo
-- Como reducir las lineas de codigo usando %>%
-- Ejemplos de aplicaciones en las bases de datos de muestra de R 
-- Nuevas funciones y conversiones de la data a matrix, characters, etc. 
-- Consolidar funciones complejas de dplyr, tales como: summarise_if, summarise_at, mutate_at
+### OBJETIVO  
+- El objetivo del proyecto es crear un modelo, ya sea descriptivo o predictivo, que demuestre que estamos aprendiendo los dos pilares fundamentales del módulo.
+
+- En particular, el objetivo de este postwork es hacer un primer análisis descriptivo de los datos que usarás para el proyecto. Además transformar, agregar o eliminar datos para generar información valiosa.
+
 
 #### REQUISITOS
-1. Contar con R studio
-1. Usar la carpeta de trabajo `Sesion-02/Postwork`
+- Cuenta de GitHub  
+- Git Bash  
+- R versión 3.6.2 o mayor                                
+- R Studio versión 1.2.5033 o mayor   
 
 #### DESARROLLO
 
-Si quedaste fascinado con el package dplyr, este es tu video, dedicale cinco minutos y luego replica el ejercicio:
-<https://www.youtube.com/watch?v=cavtFdvII4A> 
+Ya que elegiste los datos que usarás para tu proyecto, ya sean datos que ya tenías o alguna de las opciones de la carpeta **Data**. ¡Es hora de aplicar lo que aprendiste a tus datos!
 
+Para empezar, puedes utilizar las funciones ```str()``` y ```summary()``` para entender las columnas que tienes y en qué valores están.
 
+Después, utilizando la librería dplyr:     
+- Cambia los nombres de las columnas que no sean claros.  
+- Selecciona los valores únicos de las columnas.  
+- Agrega columnas que tengan transformaciones inteligentes.  
+- Elimina las columnas que no vayas a utilizar.  
+- Encuentra cuál es el mínimo, máximo, media y mediana de tu dataframe, de preferencia agrupando por alguna columna categórica que tengas. Si no, puedes encontrar esta información para tu dataframe en general.  
 
-## Parte 2: Funciones, Condicionales y Loops
+Adicionalmente. realiza algunos ejercicios para reforzar los conocimientos adquiridos sobre condiciones y loops.
 
-#### REQUISITOS
-1. Contar con R studio
-1. Usar la carpeta de trabajo `Sesion-03/Postwork`
+**Ejercicio 1**  
 
-#### DESARROLLO
+Escribe un bucle for que itere sobre los números del 1 al 7 e imprima el cubo de cada número usando ```print ()```.  
 
-A continuación realiza algunos ejercicios para reforzar los conocimientos adquiridos sobre condiciones y loops.
+**Ejercicio 2**  
 
-Ejercicio 1
+Escribe un bucle for que itere sobre los nombres de columna del conjunto de datos de iris Ejemplo de salida: Sepal.Length. Utiliza las siguientes funciones:  
+```print (), paste() ```  
 
-Escriba un bucle for que itere sobre los números del 1 al 7 e imprima el cubo de cada número usando print ().
+**Ejercicio 3**  
 
-Ejercicio 2
+Escribe un ciclo while que imprima números normales aleatorios estándar (que use rnorm (), pero se detiene (breaks) si obtiene un número mayor que 1.  
 
-Escriba un bucle for que itere sobre los nombres de columna del conjunto de datos de iris  Ejemplo de salida: Sepal.Length. Utilice las siguientes funciones print (), paste().
-
-Ejercicio 3
-
-Escriba un ciclo while que imprima números normales aleatorios estándar (use rnorm ()) pero se detiene (breaks) si obtiene un número mayor que 1.
-
-Ejercicio 4
-
-El siguiente uso adapta el bucle del último ejercicio para que no imprima números negativos.
 
 
