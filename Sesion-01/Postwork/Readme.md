@@ -15,7 +15,11 @@ En cuanto a los paquetes de R, vamos a usar habitualmente los mismos. No obstant
 **Las siguientes funciones te ayudarán a realizar diferentes tareas:**  
 
 1. Para ver todos los objetos que contiene el paquete usaremos la función ls (list files):  
-''ls("package:ggplot2")''  
-2. Para conocer todas las funciones disponibles en el package, uas la función lsf.str:  
-''lsf.str("package:ggplot2")''
+```
+ls("package:ggplot2")
+```  
+2. Para conocer todas las funciones disponibles en el package, usa la función lsf.str:  
+```
+lsf.str("package:ggplot2")  
+```
 
