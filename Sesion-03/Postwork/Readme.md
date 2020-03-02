@@ -33,7 +33,8 @@ Escribe un bucle for que itere sobre los números del 1 al 7 e imprima el cubo d
 
 **Ejercicio 2**  
 
-Escribe un bucle for que itere sobre los nombres de columna del conjunto de datos de iris Ejemplo de salida: Sepal.Length. Utiliza las siguientes funciones:  
+Escribe un bucle for que itere sobre los nombres de columna del conjunto de datos de iris.  
+Ejemplo de salida: Sepal.Length. Utiliza las siguientes funciones:  
 ```print (), paste() ```  
 
 **Ejercicio 3**  
