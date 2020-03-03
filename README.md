@@ -19,6 +19,6 @@ Para instalar R Studio vamos a acceder a este link y eligiremos la opción gratu
  - [Sesión 3](Sesion-03): Programación Orientada a Objetos(POO), Funciones, Condiciones y Loops	
  - [Sesión 4](Sesion-04): Exploración de Datos
  - [Sesión 5](Sesion-05): Manipulación de Datos
- - [Sesión 6](Sesion-06): Visualización, gráficos, talbas y series de tiempo	
+ - [Sesión 6](Sesion-06): Visualización, gráficos, tablas y series de tiempo	
  - [Sesión 7](Sesion-07): Ejercicios prácticos (storytelling) - Kaggle	
  - [Sesión 8](Sesion-08): Shiny	
