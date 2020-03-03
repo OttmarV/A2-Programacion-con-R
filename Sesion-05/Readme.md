@@ -13,8 +13,8 @@
 	- [Reto 01](Reto-01)
 
 - Estructura de dataframes
-	- [Ejemplo 02](Ejemplo-01)
-	- [Reto 02](Reto-01)
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
 
 - Libreria dplyr
 	- [Ejemplo 03](Ejemplo-03)
