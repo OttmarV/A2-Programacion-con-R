@@ -1,4 +1,4 @@
-[`Estadística con R`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Postwork`  
+[`Programaión con R`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Postwork`  
 
 
 ## Postwork
