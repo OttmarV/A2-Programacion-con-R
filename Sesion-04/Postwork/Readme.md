@@ -16,7 +16,7 @@ Es clave obtener una idea de cómo se ve y qué datos o estructura tiene tu data
 
 Para analizar todo esto en tu dataset, utiliza las siguientes funciones para empezar a analizar tu data. Recuerda escribir tus conclusiones, análisis y resultados para que después te sirvan como base para responder las preguntas que te planteaste previamente y poder crear visualizaciones de estas conclusiones.   
 
-![](/media/markdownx/8424db7b-4a30-4407-a813-2ea39d468e05.PNG)  
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/T4Sqw50/r8.png" alt="r8" border="0"></a>  
 
 Utilizando las funciones anteriores realiza las siguientes acciones:  
 - Identifica cuántas **variables** hay, qué tipo de variables son y si tienen niveles.  
