@@ -1,43 +1,26 @@
 `Data Science` > [`Programacion con R`]
 
-### OBJETIVO
-- Todo sobre correlaciones y su interpretacion 
+### OBJETIVO  
+
+En este postwork, realizarás un análisis exploratorio de tus datos.   
 
 #### REQUISITOS
-1. Contar con R studio
-1. Usar la carpeta de trabajo `Sesion-04/Postwork`
+- Cuenta de GitHub  
+- Git Bash  
+- R versión 3.6.2 o mayor                                
+- R Studio versión 1.2.5033 o mayor   
 
 #### DESARROLLO
 
-Use glimpse () para ver una descripción general rápida de los datos.
+Es clave obtener una idea de cómo se ve y qué datos o estructura tiene tu dataset. Por lo tanto, es necesario hacer exploración de tus datos a través del análisis de la estructura, del contenido, de las variables, de la agrupación y comportamiento de datos.   
 
-Ejercicio 1
-Imprima la columna hp con la función select(). Intente usar la función pull() en lugar de seleccionar para ver cuál es la diferencia.
+Para analizar todo esto en tu dataset, utiliza las siguientes funciones para empezar a analizar tu data. Recuerda escribir tus conclusiones, análisis y resultados para que después te sirvan como base para responder las preguntas que te planteaste previamente y poder crear visualizaciones de estas conclusiones.   
 
-Ejercicio 2
-Imprima todos menos la columna hp utilizando la función select().
+![](/media/markdownx/8424db7b-4a30-4407-a813-2ea39d468e05.PNG)  
 
-Ejercicio 3
-Imprima las columnas mpg, hp, vs, am, gear. Considere usar los dos puntos : para simplificar la selección de columnas consecutivas.
-
-Ejercicio 4
-Cree el objeto mycars que contiene las columnas mpg, hp columnas pero deje que los nombres de las columnas sean miles_per_gallon y horse_power respectivamente y traiga los nombres de las filas al dataframe usando tibble :: rownames_to_column ().
-
-Ejercicio 5
-Cree una nueva variable en el dataframe de mycars km_per_litre utilizando la función mutate(). Sugerencia: 1 mpg es 0.425 km / l.
-
-Ejercicio 6
-Seleccione al azar e imprima la mitad de las observaciones de mycars. Sugerencia: considere usar la función sample_frac ()
-
-
-Ejercicio 7
-Cree un objeto mycars_s, que contenga de la 10ª a la 35ª fila de mycars. Sugerencia: considere usar la función slice().
-
-Ejercicio 8
-Imprima el objeto mycars_s sin duplicados. Sugerencia: considere usar la función distinct().
-
-Ejercicio 9
-Imprima desde el objeto mycars_s todas las observaciones que tienen mpg> 20 y hp> 100.
-
-Ejercicio 10
-Imprima la fila correspondiente al automóvil Lotus Europa.
+Utilizando las funciones anteriores realiza las siguientes acciones:  
+- Identifica cuántas **variables** hay, qué tipo de variables son y si tienen niveles.  
+- Identifica cuántas **observaciones** hay, qué tipo de observaciones son y sus características.   
+- Encuentra cuál es el **mínimo**, **varianza**, **máximo**, **media**, **desviación estándar**, **IQR** y **mediana** de tu dataframe, de preferencia agrupando por alguna columna categórica que tengas. Si no, puedes encontrar esta información para tu dataframe en general.  
+- Identifica si hay valores atípicos o **outliers** y analiza por qué existen estos. ¿Crees que sea por error o porque realmente existieron en el dataset? ¿Son valores que se necesitaría tomar en cuenta para tu análisis o sería mejor eliminarlos?  
+- Identifica si hay valores inexistentes (**NA**). Analiza si ¿crees que sea por error o porque realmente existieron en el dataset? ¿Son valores que se necesitaría tomar en cuenta para tu análisis o sería mejor eliminarlos?
