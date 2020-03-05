@@ -14,16 +14,18 @@
 
 #### DESARROLLO
 
-Ya que elegiste los datos que usarás para tu proyecto, ya sean datos que ya tenías o alguna de las opciones de la carpeta **Data**. ¡Es hora de aplicar lo que aprendiste a tus datos!
+Ya que elegiste los datos que usarás para tu proyecto. ¡Es hora de aplicar lo que aprendiste a tus datos!   
 
-Para empezar, puedes utilizar las funciones ```str()``` y ```summary()``` para entender las columnas que tienes y en qué valores están.
+Ya que tienes identificadas las preguntas que puedes responder o predecir a partir de la base de datos que elegiste, empieza a hacer las siguientes acciones:  
 
-Después, utilizando la librería dplyr:     
-- Cambia los nombres de las columnas que no sean claros.  
-- Selecciona los valores únicos de las columnas.  
-- Agrega columnas que tengan transformaciones inteligentes.  
-- Elimina las columnas que no vayas a utilizar.  
-- Encuentra cuál es el mínimo, máximo, media y mediana de tu dataframe, de preferencia agrupando por alguna columna categórica que tengas. Si no, puedes encontrar esta información para tu dataframe en general.  
+1. **Importa** el dataset que elegiste a Rstudio para empezar a analizarlo en el siguiente postwork.    
+2. Instala los siguientes paquetes que te servirán para manejar y explorar tus datos:  
+- ```library(ggplot2) # te servirá para crear visualizaciones y gráficas``` 
+- ```library(dplyr) # te servirá para un mejor manejo de la data```
+- ```library(tidyr) # te servirá para reestructurar y redefinir la data```    
+
+*Recuerda practicar tus habilidades de investigación y el uso de StackOverflow para encontrar, ya sea, información sobre cómo importar datasets dependiendo del tipo de archivo hasta cómo funciona cada paquete.   
+  
 
 Adicionalmente. realiza algunos ejercicios para reforzar los conocimientos adquiridos sobre condiciones y loops.
 
