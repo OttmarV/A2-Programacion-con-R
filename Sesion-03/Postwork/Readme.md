@@ -17,7 +17,7 @@ Ya que elegiste los datos que usarás para tu proyecto. ¡Es hora de aplicar lo 
 Ya que tienes identificadas las preguntas que puedes responder o predecir a partir de la base de datos que elegiste, empieza a hacer las siguientes acciones:  
 
 1. **Importa** el dataset que elegiste a Rstudio para empezar a analizarlo en el siguiente postwork.    
-2. Instala los siguientes paquetes que te servirán para manejar y explorar tus datos:  
+2. **Instala** los siguientes paquetes que te servirán para manejar y explorar tus datos:  
 - ```library(ggplot2) # te servirá para crear visualizaciones y gráficas``` 
 - ```library(dplyr) # te servirá para un mejor manejo de la data```
 - ```library(tidyr) # te servirá para reestructurar y redefinir la data```    
