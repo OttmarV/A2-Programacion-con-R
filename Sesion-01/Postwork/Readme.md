@@ -1,4 +1,4 @@
-`Data Science` > [`Programacin con R`]
+`Data Science` > [`Programación con R`]
 
 ### OBJETIVO
 Utilizar las funcionalidades básicas de R para que funcione como calculadora. Identificar funciones clave para visualizar información sobre diferentes paquetes en R.   
