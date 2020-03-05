@@ -5,9 +5,7 @@
 
 ### OBJETIVOS
 
-- El objetivo del proyecto es crear un modelo, ya sea descriptivo o predictivo, que demuestre que estamos aprendiendo los dos pilares fundamentales del módulo.  
-
-- En particular, el objetivo de este postwork es poder identificar las opciones de datasets que tenemos, para poder tener más claridad al momento de elegir el que será la base del proyecto a desarrollar en este módulo.  
+- En este postwork es poder identificar las opciones de datasets que tenemos, para poder tener más claridad al momento de elegir el que será la base del proyecto a desarrollar en este módulo.  
   
 
 #### REQUISITOS
@@ -20,8 +18,6 @@
 #### DESARROLLO
 
 ##### Planteamiento del proyecto
-
-En el repositorio de GitHub del módulo puedes encontrar una carpeta llamada **Data**, en donde estarán los datos que podrás utilizar para desarrollar el proyecto de este módulo.   
 
 Para poder tomar una decisión respecto a cuál dataset utilizaremos para nuestro proyecto, necesitamos conocer las variables, observaciones y plantear algunas **preguntas** que podría **responder** cada dataset.  Otra opción, es que tú tengas los datos con los que quieres trabajar para el proyecto. Dependiendo del caso en el que te encuentres, sigue las instrucciones.
 
