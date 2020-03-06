@@ -4,12 +4,12 @@
 
 ### OBJETIVOS 
  - Conocer estrategias para analizar información.
- - Comprender problemas de negocio e hipótesis relevantes para identificar.
- - Ordenar y resolver necesidades por medio de la programación.
+ - Comprender y generar hipótesis relevantes a identificar.
+ - Resolver necesidades por medio de la programación.
 
 #### ORGANIZACION DE LA CLASE
 
-- Exploración primeria de una tabla 
+- Exploración primera de una tabla 
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
 
@@ -21,5 +21,5 @@
 	- [Ejemplo 03](Ejemplo-03)
 	- [Reto 03](Reto-03)
 
-- Correlaciones y su interpretacion 
+- Exploración de Data 
 	- [Postwork](Postwork)
