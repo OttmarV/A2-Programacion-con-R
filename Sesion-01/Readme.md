@@ -1,11 +1,11 @@
 `Data Analysis` > `A2-Programación-con-R`
 
-## Fundamentos de R studio y sus paquetes	 
+## Fundamentos de R I 
 
 ### OBJETIVO
 
- - Conocer los conceptos básicos de Big Data, el funcionamiento de R y su uso potencial para estructurar código eficientemente.
- - Identificar paquetes disponibles y comprender el rol de un Data Scientist.
+ - Conocer los conceptos básicos de R, el funcionamiento de R y su uso potencial para estructurar código eficientemente.
+ - Identificar paquetes disponibles.
 
 #### ORGANIZACION DE LA CLASE 
 
