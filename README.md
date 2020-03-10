@@ -22,3 +22,10 @@ Para instalar R Studio vamos a acceder a este link y eligiremos la opción gratu
  - [Sesión 6](Sesion-06): Visualización, gráficos, tablas y series de tiempo	
  - [Sesión 7](Sesion-07): Ejercicios prácticos (storytelling) - Kaggle	
  - [Sesión 8](Sesion-08): Shiny	
+
+### RECURSOS ADICIONALES  
+
+Utiliza los siguientes recursos que te servirán como apoyo durante todo el módulo:  
+- https://r4ds.had.co.nz/exploratory-data-analysis.html  
+- http://www.fcharte.com/libros/ExploraVisualizaConR-Fcharte.pdf  
+
