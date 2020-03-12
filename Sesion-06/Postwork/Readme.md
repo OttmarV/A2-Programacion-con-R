@@ -12,10 +12,10 @@ Observar la información en gráficas es de mucha utilidad para: 1) **interpreta
 En este postwork, crearás visualizaciones para tu dataset. Existen varios paquetes para crear gráficas.   
 Instala los paquetes en Rstudio y decide cuál utilizarás para crear tus visualizaciones. Puedes leer este <a href="https://towardsdatascience.com/a-guide-to-data-visualisation-in-r-for-beginners-ef6d41a34174" target="_blank">artículo</a> que explica las características de cada uno de estos paquetes:    
 
-1. graphics   
-2. lattice  
-3. ggplot2  
-4. plotly   
+1. **graphics**  
+2. **lattice**  
+3. **ggplot2**  
+4. **plotly**   
 
 Ya que sabes cuáles son los paquetes que puedes utilizar, es tiempo de elegir qué tipo de gráfica quieres crear. Esta decisión dependerá de los tipos de datos a visualizar y el mensaje que quieres transmitir. 
 Ten en cuenta la siguiente información (sobre los gráficos más comunes) al momento de elegir tu gráfica.    
