@@ -42,6 +42,7 @@
 - Predicción en el tiempo
 	- [Ejemplo 06](Ejemplo-06)
 	- [Reto 06](Reto-06)
-
-- Series de tiempo nivel avanzado
+	
+### POSTWORK: Visualización de datos
+- Postwork
 	- [Postwork](Postwork)
