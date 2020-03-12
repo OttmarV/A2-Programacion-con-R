@@ -35,5 +35,7 @@
 - Ciclo WHILE
 	- [Ejemplo 06](Ejemplo-06)
 	- [Reto 06](Reto-06)
-- Condiciones y bucles de R
+
+
+- Análisis Descriptivo de los datos
 	- [Postwork](Postwork)
