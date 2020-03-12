@@ -20,7 +20,7 @@
 	- [Ejemplo 03](Ejemplo-03)
 	- [Reto 03](Reto-03)  
 	
-### POSTWORK: Exploración de data
+### POSTWORK: Manipulación de data
 
 - Postwork 
 	- [Postwork](Postwork)
