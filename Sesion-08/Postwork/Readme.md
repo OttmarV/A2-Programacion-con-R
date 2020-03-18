@@ -11,13 +11,13 @@ Existen múltiples librerías que puedes utilizar en R para que tus gráficas y 
 
 **Plotly**  
 
-``` install.packages(plotly)     
-library(plotly) ```  
+``` install.packages(plotly) ```      
+``` library(plotly) ```    
 
 **Shiny**
 
-``` install.packages(shiny)    
-library(shiny) ```    
+``` install.packages(shiny) ```    
+``` library(shiny) ```    
 
 Si necesitas ayuda para utilizar estos paquetes recuerda que siempre puedes utilizar StackOverflow, pero también puedes revisar los siguientes recursos:
 
