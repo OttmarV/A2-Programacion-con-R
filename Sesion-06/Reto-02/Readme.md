@@ -10,7 +10,7 @@
 
 #### DESARROLLO
 
--Obtener jugadores estadounidenses y sus edades.
+-Obtener jugadores estadounidenses y sus edades.  
 -Imprimir el conteo de las edades.
 
 
