@@ -10,12 +10,12 @@
 
 #### DESARROLLO
 
--Cargamos el DS de NBA en un objeto llamado nba.
--Filtramos el DS por nacionalidad y obtenemos los jugadores mexicanos.
--Filtramos el DS resultante para obtener datos de Gustavo Ayon.
--Seleccionamos  del DS resultante las columnas: Player, Season.short y Games.
-Utilizando librería ggplot2.
--Realizamos una gráfica que nos muestre cada año los juegos ganados y perdidos en la misma columna.
+-Cargamos el DS de NBA en un objeto llamado nba.  
+-Filtramos el DS por nacionalidad y obtenemos los jugadores mexicanos.  
+-Filtramos el DS resultante para obtener datos de Gustavo Ayon.  
+-Seleccionamos  del DS resultante las columnas: Player, Season.short y Games.  
+Utilizando librería ggplot2.  
+-Realizamos una gráfica que nos muestre cada año los juegos ganados y perdidos en la misma columna.  
 
 
 ```{r}
