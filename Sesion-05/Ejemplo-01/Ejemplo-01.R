@@ -1,23 +1,23 @@
+# Declaramos una funci�n
 
-#Cargamos el DS de NBA en un objeto llamado nba.
-nba <- NBA_players_by_season
-head(nba)
-#Filtramos el DS por nacionalidad y obtenemos los jugadores mexicanos.
-mxplayer <- nba %>% 
-  filter(Nationality == 'Mexico')
-print(mxplayer)
-#Filtramos el DS resultante para obtener datos de Gustavo Ayon.
-ayon<- mxplayer %>% 
-  filter(Player == 'Gustavo Ayon')
-print(ayon)
-#Seleccionamos  del DS resultante las columnas: Player, Season.short y Games.
-games <- ayon %>% 
-  select(Player, Season.short, Games)
-print(games)
-#Utilizando librería ggplot2.
-#Realizamos una gráfica que nos muestre cada año los juegos ganados y perdidos en la misma columna.
+saludo <- function(nombre){
+  mensaje <- paste('Hola', nombre)
+  return(mensaje)
+  }
 
-ggplot(games, aes(fill=Games, y=Games, x=Season.short))+
-  geom_bar(position = "stack", stat = "identity")
- 
+# Llamada a la funci�n
+saludo('Ana')
 
+saludo('Pablo')  
+
+# Declaramos una funci�n
+operacion.personalizada <- function(a,b,c){
+  paso.1 <- (a+b)*4 + 2*a
+  paso.2 <- paso.1**2 + c/2
+  paso.3 <- paso.2**3
+  return(paso.3)
+  }
+
+# Llamada a la funci�n
+operacion.personalizada(1,2,3)
+operacion.personalizada(7,8,9)

@@ -26,4 +26,7 @@ Al final de el `Reto-03` serás capaz de:
 - Guarda el promedio de la columna qsec en mean.qsec
 - Selecciona los renglones que tengan cyl mayor al promedio (mean.cyl)
 - Selecciona los rengloens que tengan cyl mayor al promedio (mean.cyl) y qsec mayor al promedio (mean.qsec)
-- Guarda la última instruccion en un dataframe que tenga el nombre mtcars.filtrados.
+- Guarda la última instruccion en un dataframe que tenga el nombre mtcars.filtrados
+
+
+
